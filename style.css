@@ -1,0 +1,19 @@
+:root{
+
+--blur:1px;
+--color12:#ffc600;
+--spacing:10px;
+}
+.h1Tag{
+    color:var(--color12);
+}
+img{
+filter: blur(var(--blur));
+    background:var(--color12);
+    padding: var(--spacing);
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+
